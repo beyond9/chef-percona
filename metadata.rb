@@ -19,6 +19,7 @@ recipe "percona::access_grants", "Used internally to grant permissions for recip
 
 depends "apt", "~> 1.9"
 depends "yum"
+depends "yum-percona"
 depends "openssl"
 depends "mysql", "~> 3.0"
 
